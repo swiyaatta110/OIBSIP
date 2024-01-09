@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Temperature Converter</title>
+</head>
+
+<body>
+  <div class="container">
+    <img src="https://media.istockphoto.com/id/1217507110/photo/hot-summer-or-heat-wave-background.jpg?s=612x612&w=0&k=20&c=JeNJBv26e0O1sTMPynNuxA9IjVmHC7fYa_qwh7XMLCA=" alt="temperature">
+    <h1>Temperature Converter</h1>
+    <input type="number" id="temperatureInput" placeholder="Enter temperature">
+    <select id="conversionType">
+      <option value="fahrenheitToCelsius">Fahrenheit to Celsius</option>
+      <option value="celsiusToFahrenheit">Celsius to Fahrenheit</option>
+      <option value="fahrenheitToKelvin">Fahrenheit to Kelvin</option>
+      <option value="kelvinToFahrenheit">Kelvin to Fahrenheit</option>
+      <option value="celsiusToKelvin">Celsius to Kelvin</option>
+      <option value="kelvinToCelsius">Kelvin to Celsius</option>
+    </select>
+    <button onclick="convertTemperature()">Convert</button>
+    <p id="result"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
